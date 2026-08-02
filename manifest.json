@@ -1,0 +1,30 @@
+{
+    "name": "mindcraft_adapter",
+    "api_version": {
+        "adapter_api": "1.0.0",
+        "log_api": "1.0.0",
+        "stream_api": "1.0.0"
+    },
+    "display_name": "Mindcraft 适配器",
+    "version": "0.1.0",
+    "description": "将 Minecraft 作为聊天平台接入 MoFox",
+    "author": "MoFox Team",
+    "license": "MIT",
+    "categories": ["chat"],
+    "tags": ["minecraft", "adapter", "game"],
+    "dependencies": {
+        "plugins": [],
+        "components": []
+    },
+    "include": [
+        {
+            "component_type": "adapter",
+            "component_name": "mindcraft_adapter",
+            "dependencies": []
+        }
+    ],
+    "entry_point": "plugin.py",
+    "min_core_version": "1.2.0-rc.2",
+    "python_dependencies": ["websockets>=12.0"],
+    "dependencies_required": true
+}
