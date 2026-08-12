@@ -56,7 +56,6 @@ class MindcraftAdapter(BaseAdapter):
     """
 
     name = "mindcraft_adapter"
-    adapter_version = "0.1.0"
     description = "将 Minecraft 作为聊天平台接入 MoFox"
     platform = "minecraft"
 
@@ -369,8 +368,6 @@ class MindcraftAdapterPlugin(BasePlugin):
     """Mindcraft 适配器插件。"""
 
     plugin_name = "mindcraft_adapter"
-    plugin_description = "将 Minecraft 作为聊天平台接入 MoFox"
-    plugin_version = "0.1.0"
     configs: list[type] = [MindcraftAdapterConfig]
 
     def get_components(self) -> list[type]:
