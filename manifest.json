@@ -3,10 +3,10 @@
     "api_version": {
         "adapter_api": "1.0.0",
         "log_api": "1.0.0",
-        "stream_api": "1.0.0"
+        "stream_api": "2.0.0"
     },
     "display_name": "Mindcraft 适配器",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "将 Minecraft 作为聊天平台接入 MoFox",
     "author": "MoFox Team",
     "license": "MIT",
